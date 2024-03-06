@@ -1,4 +1,4 @@
-# NLP-Capstone-Project---Sentiment-Analysis
+# NLP Capstone Project - Sentiment-Analysis
 
 This is a capstone Natural Language Processing (NLP) project utilising the spaCy and TextBlob library in order to perform sentiment analysis on amazon product reviews.
 
