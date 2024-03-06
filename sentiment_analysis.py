@@ -31,13 +31,6 @@ def analyze_sentiment_textblob(text):
     return sentiment
 
 
-# This is the file path on my personal machine to access the CSV file. 
-# Generic read_csv used below for submission purposes. 
-# file_path = r"\Users\messi\Documents\Bootcamp - Python\Tasks\Task 21\amazon_product_reviews.csv"
-# df = pd.read_csv(file_path, dtype={1: str, 10: str})
-
-
-
 try:
     print("Attempting to load CSV file...")
     df = pd.read_csv("amazon_product_reviews.csv", dtype={1: str, 10: str})
